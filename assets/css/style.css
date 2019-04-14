@@ -1,0 +1,217 @@
+header img {
+    height: 40px;
+    margin-left: 40px;
+}
+body {
+    height: 100vh;
+    background-image: url(http://thewongcouple.com/our-wedding/images/CinemaBackground.jpg);
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.main-container {
+    height: 100vh;
+    background-color: #fff;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+h2{
+    color: #FDFCF0;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+.body-wrapper {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 450px;
+}
+
+.slider-wrapper {
+    background: #FDFCF0;
+}
+
+.slider-banner {
+    float: left;
+    margin: 0 0 0 6px;
+}
+
+.slider-banner li {
+    margin: 0 0 7px 0;
+    height: 142px;
+}
+
+.movie-selection-wrapper, .cinema-info-wrapper {
+    margin: 30px 0;
+    width: 100%;
+}
+
+.movie-selection-wrapper.full-header {
+    background: #373436;
+    padding: 22px 0;
+}
+
+.movie-selection-wrapper, .cinema-info-wrapper {
+    margin: 30px 0;
+    width: 100%;
+}
+
+.movie-selection-wrapper.full-header {
+    background: #373436;
+    padding: 22px 0;
+}
+
+.movie-selection-header, .cinema-info-header, .comingsoon-movie-selection-header {
+    border-bottom-color: #373436;
+    height: 41px;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 30px 0;
+}
+
+.movie-selection-wrapper .movie-selection-header h2 {
+    background: #FDFCF0 url("/assets/images/h3_movie_selection.gif") no-repeat scroll center center;
+    display: inline-block;
+    width: 445px;
+    height: 41px;
+    text-indent: -99999px;
+}
+
+.cinema-info-wrapper .cinema-info-header h2 {
+    background: #FDFCF0 url("/assets/images/h3_cinemas.gif") no-repeat scroll center center;
+    display: inline-block;
+    width: 245px;
+    height: 40px;
+    text-indent: -99999px;
+}
+
+.comingsoon-movie-selection-header h2 {
+    background: #FDFCF0 url("/assets/images/h3_comingsoons.gif") no-repeat scroll center center;
+    display: inline-block;
+    width: 310px;
+    height: 45px;
+    text-indent: -99999px;
+}
+
+.cinema-info-wrapper .cinema-info-body h4 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cinema-info img {
+    width: 100%;
+}
+
+.movie-selection-body {
+    margin-top: 15px;
+}
+
+.movie-selection-body .sel-body {
+
+}
+
+.movie-selection-body .sel-body ul li {
+    margin: 0 10px 0 0;
+    position: relative;
+}
+
+.movie-selection-body .sel-body ul li img {
+    width: 240px;
+    height: 390px;
+}
+
+.sel-body-hv {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.movie-selection-body .sel-body ul li:hover .sel-body-hv, .movie-list-body ul li:hover .sel-body-hv, .comingsoon-movie-list-body ul li:hover .sel-body-hv {
+    display: block;
+}
+
+.sel-body-hv.on {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 390px;
+}
+
+.movie.sel-body-hv.on {
+    background: rgba(0,0,0,0.8) url("/assets/images/sel-body-hv-mov.png") no-repeat;
+}
+
+.cinema.sel-body-hv.on {
+    background: rgba(0,0,0,0.8) url("/assets/images/sel-body-hv-cin.png") no-repeat;
+}
+
+.sel-body-play {
+    color: #FFF;
+    font-size: 120px;
+    position: absolute;
+    top: 30px;
+    left: 67px;
+}
+
+.sel-body-play:hover {
+    color: #CCC;
+}
+
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+.carousel {
+    margin-bottom: 0;
+	padding: 0 40px 30px 40px;
+}
+/* Reposition the controls slightly */
+.carousel-control {
+	left: -12px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* Changes the position of the indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+	background: #fff;
+}
+.carousel-indicators .active {
+background: #333333;
+}
+
